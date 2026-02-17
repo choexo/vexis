@@ -5,7 +5,7 @@
 
 ---
 
-### / logic
+###> logic
 the system operates on a linear execution pipeline:
 * **capture**: vocal input is processed into serialized data strings.
 * **transmit**: data is bridged via a 2.4ghz wireless link to the processing core.
@@ -14,7 +14,7 @@ the system operates on a linear execution pipeline:
 
 ---
 
-### / architecture
+###> architecture
 the project utilizes a modular design for isolated power management and signal integrity:
 
 
@@ -26,7 +26,7 @@ the project utilizes a modular design for isolated power management and signal i
 
 ---
 
-### / tech
+###> tech
 ```yaml
 core:      arduino uno (atmega328p)
 protocol:  uart / bluetooth serial
