@@ -32,3 +32,7 @@ core:      arduino uno (atmega328p)
 protocol:  uart / bluetooth serial
 interface: spdt relay / 1k:2k resistor-ladder divider
 power:     isolated dc rail / 5v logic
+```
+
+### architecture
+![vexis architecture](assets/architecture.png)
